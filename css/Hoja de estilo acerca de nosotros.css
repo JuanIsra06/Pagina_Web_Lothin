@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image:url("background.jpg");
+	margin: 0;
+}
+
+@font-face{
+	font-family:"bebas-neue";
+	src: url("BebasNeue-Regular.otf")
+}
+
+@font-face{
+	font-family: "Champagne Limousines Italic";
+	src: url("webfonts/Champagne_Limousines_Italic/Champagne _ Limousines Italic.ttf")
+}
+
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+	}
+
+nav{
+    background-color: rgb(193,4,4);
+    width: 100%;
+    overflow: hidden;
+    padding-right: 0px;
+	font-family: "bebas-neue";
+ }
+
+ul{
+	padding: 0px;
+	list-style: none;
+	margin: 0 0 0 200px;
+}
+
+li{
+	float:left;
+	margin-bottom:-22px;
+	margin-left: 24px;
+}
+
+li a{
+	text-decoration: none;
+}
+
+.logo{
+	position:absolute;
+	margin-top:5px;
+	margin-left:10px;
+}
+nav a{
+	width:100px;
+	display:block;
+	padding:27px 10px;
+	text-decoration:none;
+	font-family:"Bebas Neue";
+	color:#f2f2f2;
+	text-align:center;
+	font-size:18px;
+	padding-left:40px;
+	padding-right:40px;
+}
+
+nav a:hover, a:active{
+	background-color:white;
+	color:rgb(193,4,4);
+}
+
+.acerca{
+	text-align:center;
+	font-size:36px;
+	font-family: "Champagne Limousines Italic";
+}
+
+.Fotos {
+    margin: 5px;
+    border: 3px solid #ccc;
+    float: left;
+    width: 200px;
+    margin-left: 11%;
+}
+
+.Fotos:hover {
+  border: 3px solid #777;
+}
+
+.Fotos img {
+  width: 100%;
+  height: auto;
+}
+
+.Director {
+	padding:5px;
+	text-align: center;
+	font-family: "Champagne Limousines Italic";
+}
+
+.historia {
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: "Champagne Limousines Italic";
+    display: table;
+    padding-left: 10%;
+}
+
+.historia h3 {
+    margin-left: 9px;
+    font-size: 30px;
+    font-family: "Champagne Limousines Italic";
+    font-weight: bold;
+}
+
+.Mision h3 {
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Champagne Limousines Italic";
+}
+
+.Mision {
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: "Champagne Limousines Italic";
+    float: left;
+    display: table-cell;
+    padding-left: 15%;
+}
+
+.Vision h3 {
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Champagne Limousines Italic";
+}
+
+.Vision {
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: "Champagne Limousines Italic";
+    float: left;
+    display: table-cell;
+    padding-left: 15%;
+}
+
+.facebook{
+    display: table-cell;
+    clear: left;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.instagram{
+    margin-left: 15px;
+    display: table-cell;
+    font-size: 18px;
+    padding-left: 218px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.telefono {
+    margin-left: 15px;
+    display: table-cell;
+    font-size: 18px;
+    margin-bottom: 9px;
+    padding-left: 218px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ubicacion {
+    margin-left: 15px;
+    display: table-cell;
+    font-size: 18px;
+    padding-left: 218px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer{
+    background-color: rgb(193,4,4);
+    padding: 20px;
+    color: white;
+    font-family: bebas-neue;
+    width: 98%;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 0px;
+    display: table;
+    padding-bottom: 0px;
+}
+
+footer a{
+	color: white;
+	text-decoration: none;
+}
+
+footer a:hover, a:active{
+    color: white;
+    font-family: bebas-neue;
+    font-style: normal;
+    font-weight: 400;
+}

@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image:url(imagenes/background.jpg);
+	margin: 0;
+}
+
+nav{
+	 background-color: rgb(193,4,4);
+	 width:100%;
+	 overflow:hidden;
+ }
+ul{
+	padding: 0;
+	list-style: none;
+	margin: 0 0 0 200px;
+}
+
+li{
+	float:left;
+	margin-bottom:-22px;
+}
+
+.logo{
+	position:absolute;
+	margin-top:5px;
+	margin-left:10px;
+}
+nav a{
+	width:100px;
+	display:block;
+	padding:27px 10px;
+	text-decoration:none;
+	font-family:"Bebas Neue";
+	color:#f2f2f2;
+	text-align:center;
+	font-size:18px;
+	padding-left:40px;
+	padding-right:40px;
+}
+
+nav a:hover, a:active{
+	background-color:white;
+	color:rgb(193,4,4);
+}

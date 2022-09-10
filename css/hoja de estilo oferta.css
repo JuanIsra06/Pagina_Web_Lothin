@@ -1,0 +1,172 @@
+@charset "utf-8";
+@import url("webfonts/Champagne_Limousines_Italic/stylesheet.css");
+
+/* CSS Document */
+
+body{
+	background-image:url("background.jpg");
+	margin: 0;
+}
+
+@font-face{
+	font-family:"bebas-neue";
+	src: url("BebasNeue-Regular.otf")
+}
+
+@font-face{
+	font-family: "Champagne Limousines Italic";
+	src: url("webfonts/Champagne_Limousines_Italic/Champagne _ Limousines Italic.ttf")
+}
+
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+	}
+
+nav{
+    background-color: rgb(193,4,4);
+    width: 100%;
+    overflow: hidden;
+    padding-right: 0px;
+	font-family: "bebas-neue";
+ }
+
+ul{
+	padding: 0px;
+	list-style: none;
+	margin: 0 0 0 200px;
+}
+
+li{
+	float:left;
+	margin-bottom:-22px;
+	margin-left: 24px;
+}
+
+li a{
+	text-decoration: none;
+}
+
+.logo{
+	position:absolute;
+	margin-top:5px;
+	margin-left:10px;
+}
+nav a{
+	width:100px;
+	display:block;
+	padding:27px 10px;
+	text-decoration:none;
+	font-family:"Bebas Neue";
+	color:#f2f2f2;
+	text-align:center;
+	font-size:18px;
+	padding-left:40px;
+	padding-right:40px;
+}
+
+nav a:hover, a:active{
+	background-color:white;
+	color:rgb(193,4,4);
+}
+
+.Oferta{
+    font-size: 40px;
+    text-align: center;
+    font-family: "Champagne Limousines Italic";
+    font-weight: bold;
+}
+
+div.galeria{
+    margin-top: 0.7%;
+    margin-right: 0%;
+    margin-left: 15%;
+    margin-bottom: 3.7%;
+    border: 2px dashed #5F5F5F;
+    float: left;
+    -webkit-box-shadow: 2px 2px 12px #646262;
+    box-shadow: 2px 2px 12px #646262;
+}
+
+div.galeria:hover{
+    border: 2px dashed #000000;
+}
+
+div.abajo{
+    padding: 15px;
+    text-align: center;
+    font-family: bebas-neue;
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-large;
+    background-color: #DBDBDB;
+}
+
+div.galeria img{
+	width: 100%;
+	height: auto;
+}
+
+.facebook{
+    display: table-cell;
+    clear: left;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.instagram{
+    margin-left: 15px;
+    display: table-cell;
+    font-size: 18px;
+    padding-left: 218px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.telefono {
+    margin-left: 15px;
+    display: table-cell;
+    font-size: 18px;
+    margin-bottom: 9px;
+    padding-left: 218px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ubicacion {
+    margin-left: 15px;
+    display: table-cell;
+    font-size: 18px;
+    padding-left: 218px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer{
+    background-color: rgb(193,4,4);
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 1px;
+    color: white;
+    font-family: bebas-neue;
+    width: 98%;
+    font-style: normal;
+    font-weight: 400;
+    display: table;
+}
+
+footer a{
+	color: white;
+	text-decoration: none;
+}
+
+footer a:hover, a:active{
+    color: white;
+    font-family: bebas-neue;
+    font-style: normal;
+    font-weight: 400;
+}

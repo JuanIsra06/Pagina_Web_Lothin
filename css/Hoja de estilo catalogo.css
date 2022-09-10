@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image:url("background.jpg");
+	margin: 0;
+}
+
+@font-face{
+	font-family:"bebas-neue";
+	src:url(webfonts/Champagne_Limousines_Italic/BebasNeue-Regular.otf);
+}
+
+@font-face{
+	font-family: "Champagne Limousines Italic";
+	src: url("webfonts/Champagne_Limousines_Italic/Champagne _ Limousines Italic.ttf");
+}
+
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+	}
+
+nav.navegador{
+    background-color: rgb(193,4,4);
+    width: 100%;
+    overflow: hidden;
+    padding-right: 0px;
+ }
+ul{
+	padding: 0px;
+	list-style: none;
+	margin: 0 0 0 200px;
+}
+
+li{
+	float:left;
+	margin-bottom:-22px;
+	margin-left: 24px;
+}
+
+li a{
+	text-decoration: none;
+}
+
+.logo{
+	position:absolute;
+	margin-top:5px;
+	margin-left:10px;
+}
+nav.navegador a{
+	width:100px;
+	display:block;
+	padding:27px 10px;
+	text-decoration:none;
+	font-family:"Bebas Neue";
+	color:white;
+	text-align:center;
+	font-size:18px;
+	padding-left:40px;
+	padding-right:40px;
+}
+
+nav.navegador a:hover, a:active{
+	background-color:white;
+	color:rgb(193,4,4);
+}
+
+.facebook{
+    display: table-cell;
+    clear: left;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.instagram{
+    margin-left: 15px;
+    display: table-cell;
+    font-size: 18px;
+    padding-left: 218px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.telefono {
+    margin-left: 15px;
+    display: table-cell;
+    font-size: 18px;
+    margin-bottom: 9px;
+    padding-left: 218px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ubicacion {
+    margin-left: 15px;
+    display: table-cell;
+    font-size: 18px;
+    padding-left: 218px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer.piedepagina{
+	background-color: rgb(193,4,4);
+	padding-right:0px;
+	color: white;
+	font-family: "bebas-neue";
+	width: 100%;
+	overflow: hidden;
+}
+
+footer.piedepagina a{
+	color: white;
+	text-decoration: none;
+}
+
+footer.piedepagina a:hover, a:active{
+    color: white;
+    font-family: bebas-neue;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+	float: left;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .8s ease;
+  background-image:url("background.jpg");
+	float: left;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+    color: red;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-family: "bebas-neue";
+    text-shadow: 1px 1px 4px;
+}
+
+.text a, a:visited{
+	color: rgb(193,4,4);
+	text-decoration: none;
+}
+
+.text a:hover, a:active{
+	color: rgb(193,4,4);
+}
+
+.container2 {
+    position: relative;
+    width: 50%;
+    float: left;
+}
+
+.image2 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .8s ease;
+  background-image: url("background.jpg");
+	float: left;
+}
+
+.container2:hover .overlay2 {
+  opacity: 1;
+}
+
+.text2 {
+    color: red;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-family: "bebas-neue";
+    text-shadow: 1px 1px 4px;
+}
+
+.text2 a, a:visited{
+	color: rgb(193,4,4);
+	text-decoration: none;
+}
+
+.text2 a:hover, a:active{
+	color: rgb(193,4,4);
+}
